@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>http://yhh2021x.github.io/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Jun 2021 00:18:43 +0800</lastBuildDate>
+    
+	<atom:link href="http://yhh2021x.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OJ调试指南</title>
+      <link>http://yhh2021x.github.io/posts/oj-faq/</link>
+      <pubDate>Fri, 04 Jun 2021 00:18:43 +0800</pubDate>
+      
+      <guid>http://yhh2021x.github.io/posts/oj-faq/</guid>
+      <description>编译错误 编译错误的意思是，代码有语法错误，完全运行不了。
+请在Jupyter Notebook中本地调试。
+Runtime Error RE的意思是，代码语法没问题，但是运行时出现异常，运行到一半就炸了。
+请在Jupyter Notebook中本地调试，并使用题目中的示例输入。
+Wrong Answer WA的意思是，代码语法没问题，运行时也没出现异常，但是结果不对。
+请在Jupyter Notebook中本地调试，并使用题目中的示例输入，与示例输出作比较。
+一些常见问题  题目要求使用小数，却使用了int，导致RE； 在input()和print()等地方输出了题目没有要求的，通常是给人类读的，一些提示性文字，导致WA； 题目输入的数之间用空格分割，但是却用多个input()读入，而不是input().split()。  </description>
+    </item>
+    
+  </channel>
+</rss>
